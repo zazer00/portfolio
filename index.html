@@ -2,7 +2,7 @@
 <html lang="en">
  <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500&display=swap" rel="stylesheet">
@@ -119,6 +119,10 @@
    }) //전체괄호
   </script>
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Tiro+Gurmukhi:ital@0;1&display=swap');
+      /* font-family: 'Tiro Gurmukhi', serif; */
+      @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+      /* font-family: 'Lato', sans-serif; */
     @font-face {
     font-family: 'Pretendard-Regular';
     src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
@@ -171,6 +175,8 @@ header{width: 100%;height: 50px;border-top: 1px solid #ccc;line-height: 50px;bac
 #main_work_content2_font>p{margin-top: 20px;}
 #main_work_content2_font>ul{overflow: hidden;}
 #main_work_content2_font>ul>li{width: 25%;float: left;}
+#main_work_content2_font>ul>li:nth-child(1)>h4{font-family: 'Tiro Gurmukhi', serif;}
+#main_work_content2_font>ul>li:nth-child(2)>h4{ font-family: 'Lato', sans-serif; }
 #main_work_content2_font>ul>li>h3{font-size: 18px;line-height: 20px;}
 #main_work_content2_font>ul>li>h4{margin-top: 20px;font-size: 15px;font-weight: 300;text-decoration: underline;color: #999;}
 /*  */
@@ -181,17 +187,21 @@ header{width: 100%;height: 50px;border-top: 1px solid #ccc;line-height: 50px;bac
 #main_work_content2_color>ul>li>h4{font-size: 18px;text-decoration: underline;font-weight: 400;margin-top: 10px;color: #999;}
 #main_work_content2_color>ul>li>.color_box{width: 100%;height: 30px;background-color: #000;box-sizing: border-box;}
 #main_work_content2_color>ul>li:nth-child(1)>.color_box{background-color: #000;border-right: 1px solid #fff;}
-#main_work_content2_color>ul>li:nth-child(2)>.color_box{background-color: #fedc00;}
-#main_work_content2_color>ul>li:nth-child(3)>.color_box{background-color: #fff;border-top: 1px solid #ddd;border-bottom: 1px solid #ddd;}
+#main_work_content2_color>ul>li:nth-child(2)>.color_box{background-color: #248A6E;}
+#main_work_content2_color>ul>li:nth-child(3)>.color_box{background-color: #fff;border-top: 1px solid #ddd;border-bottom: 1px solid #EFECEC;}
 #main_work_content2_color>ul>li:nth-child(4)>.color_box{background-color: #ddd;}
 #main_work_content2_icons{margin-top: 50px;}
 #main_work_content2_icons>p{margin-top: 50px;float: left;font-size: 14px;}
 #main_work_content2_icons>h2{line-height: 50px;font-size: 30px;}
 #main_work_content2_icons>ul{overflow: hidden;margin-top: 30px;}
 #main_work_content2_icons>ul>li{width: 20px;float: left;margin:0 10px;}
+#main_work_content2_icons>ul>li:nth-child(2){background-color: #ddd;height: 20px;}
+#main_work_content2_icons>ul>li:nth-child(2)>img{width: 11px;}
 #main_work_content2_icons>ul>li:nth-child(4){background-color: #ddd;height: 20px;}
 #main_work_content2_icons>ul>li:nth-child(5){background-color: #ddd;height: 20px;}
+#main_work_content2_icons>ul>li:nth-child(5){width: 20px;}
 #main_work_content2_icons>ul>li:nth-child(6){background-color: #ddd;height: 20px;}
+#main_work_content2_icons>ul>li:nth-child(11)>img{width: 9px;}
 #main_work_content2_icons>ul>li>img{width: 100%;}
 /*  */
 #pc_mobile{width: 100%;padding: 100px 0;text-align: center;}
@@ -433,12 +443,12 @@ footer>p{float: right;font-size: 12px;line-height: 25px;margin-right: 20px;text-
         to CSS, JAVASCRIPT, JQUEARY, 100% handmade
         </p>
     </div>
-    <img src="images/pc_img.jpg" alt="" id="main_work_img">
+    <img src="images/pc_home.png" alt="" id="main_work_img">
     <div id="main_work_content1">
-      <img src="images/ipad.png" alt="" id="main_work_content1_left_img">
+      <video src="images/video1.mp4" id="main_work_content1_left_img" loop autoplay muted></video>
       <div id="main_work_content1_right">
-        <img src="images/main_logo_b.png" alt="">
-        <p>평소 여행과 동물 에 관심이 많아 이 둘이 결합된 [National Geographic]을 주제로 선정하여 디자인 기획부터 css, Jquery, Javascript, Plug in 작업을 통해 기존에 없던 새로운 사이트를 구현했습니다. 마우스 스크롤, 드래그, 클릭 동작에 중점을 두었고 서브페이지 작업으로 페이지간 이동이 가능하며 반응형으로 제작되어 어느 기기에서나 편안한 이용 및 감상이 가능합니다.</p>
+        <img src="images/main_page2_logo.png" alt="">
+        <p>평소 시계에 대한 관심이 많던 찰나 이상적인 시계에  가장 부합하는 [ROLEX]의 홈페이지를   <br>디자인 기획부터 css, Jquery, Javascript, Plug in 작업을 통해 기존에 없던 새로운 사이트를 구현했습니다. 스크롤동작으로 인터렉션되는 기본 동작들을 강조했으며 3D 슬라이드를 활용한 인터렉션 또한 심도있게 작업했습니다.       </p>
         <button>Let's see !</button>
       </div>
     </div>
@@ -448,22 +458,20 @@ footer>p{float: right;font-size: 12px;line-height: 25px;margin-right: 20px;text-
           <h2>fonts</h2>
           <ul>
             <li>
-              <h3>National
-                Geographic</h3>
-              <h4>Nanum Gothic</h4>
+              <h3>ROLEX</h3>
+              <h4>Tiro Gurmukhi</h4>
             </li>
             <li>
-              <h3>National
-                Geographic</h3>
-              <h4>Roboto</h4>
+              <h3>ROLEX</h3>
+              <h4>Lato</h4>
             </li>
-            <li>
+            <!-- <li>
               <h3>National
                 Geographic</h3>
               <h4>Roboto Slab</h4>
-            </li>
+            </li> -->
           </ul>
-          <p>전체적으로 깔끔한 느낌의 폰트 사용, Roboto slab 폰트로 포인트를 주었습니다.</p>
+          <p>전체적으로 정갈한 느낌의 폰트 사용 , <br> Tiro Gurmukhi 폰트로 로고와의 일체감을 주었습니다.</p>
         </div>
         <div id="main_work_content2_color">
           <h2>colors</h2>
@@ -474,7 +482,7 @@ footer>p{float: right;font-size: 12px;line-height: 25px;margin-right: 20px;text-
             </li>
             <li>
               <div class="color_box"></div>
-              <h4>#fedc00</h4>
+              <h4>#248A6E</h4>
             </li>
             <li>
               <div class="color_box"></div>
@@ -482,7 +490,7 @@ footer>p{float: right;font-size: 12px;line-height: 25px;margin-right: 20px;text-
             </li>
             <li>
               <div class="color_box"></div>
-              <h4>#ddd</h4>
+              <h4>#EFECEC</h4>
             </li>
           </ul>
           <p></p>
@@ -491,53 +499,53 @@ footer>p{float: right;font-size: 12px;line-height: 25px;margin-right: 20px;text-
           <h2>icons</h2>
           <ul>
             <li>
-              <img src="icons/arrowbt_black_l.png" alt="">
+              <img src="icons/facebook_logo.png" alt="">
             </li>
             <li>
-              <img src="icons/arrowbt_gray_r.png" alt="">
+              <img src="icons/facebook_w.png" alt="">
             </li>
             <li>
-              <img src="icons/close_btn.png" alt="">
+              <img src="icons/insta_logo.png" alt="">
             </li>
             <li>
-              <img src="icons/main_btn_play.png" alt="">
+              <img src="icons/instargram_w.png" alt="">
             </li>
             <li>
-              <img src="icons/main_btn_stop.png" alt="">
+              <img src="icons/languege.png" alt="">
             </li>
             <li>
-              <img src="icons/main_slide_bt_r.png" alt="">
+              <img src="icons/languege_w.png" alt="">
             </li>
             <li>
-              <img src="icons/scroll_down_b.png" alt="">
+              <img src="icons/left_bt.png" alt="">
             </li>
             <li>
-              <img src="icons/scroll_top_b.png" alt="">
+              <img src="icons/main3_arrow.png" alt="">
             </li>
             <li>
-              <img src="icons/section3_mobile_black_l.png" alt="">
+              <img src="icons/menu_bt.png" alt="">
             </li>
             <li>
-              <img src="icons/section3_mobile_gray_r.png" alt="">
+              <img src="icons/right_bt.png" alt="">
             </li>
             <li>
-              <img src="icons/section4_playlist_btn_b.png" alt="">
+              <img src="icons/sc_arrow.png" alt="">
             </li>
             <li>
-              <img src="icons/sns_facebook_b.png" alt="">
+              <img src="icons/scroll_arrow.png" alt="">
             </li>
             <li>
-              <img src="icons/sns_home.png" alt="">
+              <img src="icons/twitter_logo.png" alt="">
             </li>
             <li>
-              <img src="icons/sns_youtube_b.png" alt="">
+              <img src="icons/youtube_w.png" alt="">
             </li>
           </ul>
-          <p>무채색의 아이콘을 사용하여 집중도는 물론 이미지간의 조화를 완성했습니다</p>
+          <p>무채색의 아이콘을 사용하여 집중도는 물론 이미지의 디자인을 강조하기위해 노력하였습니다.</p>
         </div>
       </div>
       <div id="main_work_content2_right">
-        <img src="images/phone_img.jpg" alt="">
+        <img src="images/home_img2.png" alt="">
       </div>  
     </div>
 </section>
